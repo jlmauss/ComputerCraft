@@ -49,3 +49,11 @@ function clear(xMin,xMax, yMin, yMax)
         end
     end
 end
+
+prepareMon()
+
+while true do
+      drawBox(2, monX - 1, 3, monY - 10, "CPU's", colors.gray, colors.lightGray)
+    drawBox(2, monX - 1, monY - 8, monY - 1, "Stats", colors.gray, colors.lightGray)
+end
+
